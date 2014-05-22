@@ -1,0 +1,1434 @@
+	body{
+		margin:0;
+		padding:0;
+		position:static;
+		min-width: 900px;
+	}
+
+	html, body{
+			overflow-x:hidden;
+		}
+
+	/* ----- CLASSES ----- */	
+	/* ----- CLASSES ----- */	
+	/* ----- CLASSES ----- */	
+
+	.body{
+		width: 100%;
+		background-color: #c6ddee;
+	}
+
+	.btn{
+		font-family: 'Lato', sans-serif;
+  		border-radius: 0px;
+	    color: #6A7680;
+	    background: #fff;
+	    text-decoration: none;
+	    text-transform: uppercase;
+		display: inline-block;
+		margin-bottom: 0;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: none;
+		border: 1px solid transparent;
+		white-space: nowrap;
+		padding: 6px 12px;
+		font-size: 18px;
+		border-radius: 4px;
+	}
+
+	.btn:hover{
+  		background: #000;
+  		text-decoration: none;
+	}
+
+	.btn:active{
+  		background: #000;
+  		text-decoration: none;
+	}	
+	
+
+	.btn:visited{
+  		color: #6A7680;
+	    background: #fff;
+	    text-decoration: none;
+	}
+
+	.title-line {
+    	position: absolute;
+    	display: block;
+    	height: 1px;
+    	border: 0;
+    	border-top: 2px solid #000;
+    	margin: 1em 0;
+    	padding: 0;
+    	width: 12%;
+    	z-index: 4;
+    	left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+
+	.fishline{
+		position: relative;
+		width: 11%;
+		margin: 5px;
+	}
+
+	.fishline2{
+		position: relative;
+		/*width: 18%;*/
+		max-width:200px;
+		height:auto;
+		/*margin:10px;*/
+		/*padding: 10px;*/
+	}
+
+	.border-line {
+    	position: relative;
+    	width: 50%;
+		margin-left:auto;
+		margin-right:auto;
+    	height: 1px;
+    	border-top: 1px solid #fff;
+    	padding: 0;
+	}
+	.sectionline {
+    	position: relative;
+    	width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+    	height: 1px;
+    	border-top: 3.5px solid #fff;
+    	padding: 0;
+	}
+
+	.quote{
+		position: relative;
+		width: 50%;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 26px;
+		text-align: left;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		overflow: hidden;
+		color: #fff;
+	}
+		
+	.quote p{
+		margin-bottom:10px;
+	}
+
+	.quotetitle{
+		position: relative;
+		width: 48%;
+		font-family: "Lato", sans-serif;
+		font-weight: 300;
+		font-size: 18px; 
+		font-style: italic;
+		text-align: left;
+		left:75%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		margin-top:5px;
+		color: #fff;
+	}
+
+	.borderline {
+    	position: absolute;
+    	display: block;
+    	height: 1px;
+    	border: 10px;
+    	border-top: 2px solid #fff;
+    	margin: 1em 0;
+    	padding: 10px;
+    	width: 70%;
+    	left:10%;
+	}
+
+	.dividerline {
+    	position: absolute;
+    	display: block;
+    	height: 1px;
+    	border: 10px;
+    	border-top: 2px solid #000;
+    	margin: 1em 0;
+    	padding: 10px;
+    	width: 80%;
+    	left:50%;
+    	-webkit-transform:translate(-50%, 0);
+		-moz-transform:translate(-50%, 0);
+		-ms-transform:translate(-50%, 0);
+		    transform:translate(-50%, 0);
+	}
+
+	.nippon{
+		display: inline-block;
+		/*float: left;*/
+		margin: 10px;
+		padding: 10px;
+		z-index: 100;
+	}
+
+	.nippon span{
+		text-align: left;
+		color: #fff;
+		/*margin-top: 8px;*/
+	}
+
+	.slideshow{
+		display:inline;
+		margin: 20px;
+		padding:20px;
+	}
+
+
+	.timelapse{
+		width: 100%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+
+	.video-grid{
+		margin-bottom: 0px;
+		padding: 10px;
+		display: inline;
+	}
+
+	.dam-grid{
+		margin-bottom: 5px;
+		padding: 5px;
+	}
+
+	.boxshadow{
+		-webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.4);
+    	-moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.4);
+		box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.4);
+	}
+
+	.photocaption{
+		position: absolute;
+		font-family: 'Lato', sans-serif;
+		font-style: italic;
+		font-size: 18px;
+		font-weight: 300;
+		text-align: left;
+		color: #fff;
+		opacity: .5;
+		overflow: hidden;
+		letter-spacing: 1.5px;
+		z-index: 1000;
+		line-height: 1.2em;
+	}
+
+	.embed-container{ 
+		position: relative; 
+		padding-bottom: 38.75%; 
+		padding-top: 30px; 
+		height: 0; 
+		overflow: hidden; 
+		width:75%;
+		margin:120px auto 35px;
+		height: auto; 
+	} 
+
+	.embed-container iframe, .embed-container object, .embed-container embed{ 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+
+	}
+
+
+
+	/* ----- SPLASH PAGE ----- */
+	/* ----- SPLASH PAGE ----- */
+	/* ----- SPLASH PAGE ----- */
+
+	#splash{
+		position: relative;
+		width: 100%;
+		left:0;
+		top:0;
+		margin:0px;
+		border: 0px;
+		height: 1050px;
+		/*overflow: hidden;*/
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/01splashbg.jpg') no-repeat center top;
+		background-size: cover;
+	}
+
+	#splash-title{
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+		text-shadow: 2px 1px 1px #000;
+		letter-spacing: 5px;
+		width:100%;
+		padding-top: 200px;
+		overflow: hidden;
+		z-index: 1000;
+		border: 0px;
+
+	}
+
+	#splash-sub{
+		font-family: 'Lato', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		text-shadow: 2px 1px 1px #000;
+		margin-top: -75px;
+		overflow: hidden;
+		z-index: 100;
+		left: 50px;
+	}
+
+	#trailerLaunch{
+		text-decoration: none;
+		color:#ccc;
+	}
+
+	.selectedFish{
+		outline: 4px solid #000000;
+		outline-offset: 4px;
+		/*-moz-transform: scale(1.5);
+		-webkit-transform: scale(1.5);
+		-o-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		transform: scale(1.5);*/
+	}
+
+	/* ----- NAVIGATION ----- */
+	/* ----- NAVIGATION ----- */
+	/* ----- NAVIGATION ----- */
+
+	#nav{
+        position: absolute;
+        width:100%;
+        top:0;
+        left:0;
+        background-color: #000;
+		overflow: hidden;
+		height: 50px;
+		z-index: 999999;
+		
+	}
+
+	#nav-holder{
+		position:relative;
+		height:50px;
+		width:100%;
+		top:0;
+		left:0;
+		z-index:10000;
+	}
+
+	#nav ul{
+		list-style-type: none;
+		margin-left: 10%;
+	}
+
+	#nav li a {
+		display: inline;
+		float: left;
+		padding: 2px 10px;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+		font-weight: 300;
+		color: #fff; 
+	} 
+
+	#nav h3{
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.8em;
+		letter-spacing: 1px;
+		margin-top: -15px;
+	}
+
+	/* ----- PART 1: SECTION 1 ----- */
+	/* ----- PART 1: SECTION 1 ----- */
+	/* ----- PART 1: SECTION 1 ----- */
+
+	#part1-section1{
+		position: relative;
+		min-height: 2500px;
+		width: 100%;
+		left:0;
+		top:0;
+		overflow: hidden;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/p1s1bg.jpg') no-repeat center bottom;
+		background-size: cover;
+		background-color: #c6ddee;
+		z-index:0;
+	}
+
+	#part1-title{
+		position: absolute;
+		font-family: 'Oswald', sans-serif;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 0px;
+		overflow: hidden;
+		z-index: 100;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		 	
+	}
+
+	#wa-map{
+		position: absolute;
+		z-index: 100;
+		/*display: inline-block;*/
+		top:25%;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+
+	}
+
+	#part1-text1{
+		position:absolute;
+		z-index: 1000;
+		margin-top: 685px;
+		left:65%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}	
+	
+	#part1text1-head{
+		font-family: 'Oswald', sans-serif;
+		font-size: 35px;
+		font-weight: 300;
+		text-align: left;
+		overflow: hidden;
+		margin-bottom: 3px;
+		letter-spacing: 1.5px;
+		z-index: 1000;
+		width: 100%;
+	}
+
+	#part1text1-sub{
+		font-family: 'Lato', sans-serif;
+		font-size: 19px;
+		font-weight: 300;
+		text-align: left;
+		width:62%;
+		margin-top: -5px;
+		overflow: hidden;
+		z-index: 1000;
+	}
+
+	#part1section1-endtitle{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 35px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		text-shadow: 2px 1px 1px #000;
+		z-index: 100;
+	}
+
+	#part1section1-endtitlesub{
+		font-family: "Lato", sans-serif;
+		font-weight: 300;
+		font-size: 22px; 
+		font-style: italic;
+		text-align: left;
+		color: #fff;
+	}
+
+	#geysercaption{
+		position: absolute;
+		z-index: 1000;
+		left: 75%;
+		margin-top: 2220px;
+	}
+
+	#makahcaption{
+		position: absolute;
+		z-index: 1000;
+		left: 75%;
+		margin-top: 850px;
+	}
+
+
+	/* ----- PART 1: SECTION 2 ----- */
+	/* ----- PART 1: SECTION 2 ----- */
+	/* ----- PART 1: SECTION 2 ----- */
+
+	#part1-section2{
+		position: relative;
+		min-height: 1100px;
+		width: 100%;
+		background-color: #353b40;
+		z-index: 0;
+		left:0;
+		top:0;
+		overflow: hidden;
+		z-index: 0;	
+ 	}
+	
+	#part1section2-title{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		z-index: 100;
+	}
+
+	#part1section2-text{
+		position: relative;
+		width:60%;
+		font-family: 'Lato', sans-serif;
+		font-size: 22px;
+		font-weight: 300;
+		text-align: left;
+		color:#fff;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		overflow: hidden;
+		z-index: 100;
+	}
+
+	#fish-line{
+		position: absolute;
+		background-color: #353b40;
+		display: inline;
+		z-index: 1000;
+	}
+
+	#elofsonquote{
+		position: relative;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+
+	#elofsontitle{
+		position: relative;
+		left:80%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+
+	#part1section2-transition{
+		position: relative;
+		left:0px;
+		min-height: 1000px;
+		width: 100%;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/p1s2bg.jpg') no-repeat center top;
+		background-size: cover;
+		z-index: 1000;
+	}
+
+	/* ----- PART 1: SECTION 3 ----- */
+	/* ----- PART 1: SECTION 3 ----- */
+	/* ----- PART 1: SECTION 3 ----- */
+
+	#part1-section3{
+		position: relative;
+		min-height: 2400px;
+		width: 100%;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/topo-grad.png') no-repeat center bottom;
+		background-size: cover;
+		background-color: #2e5575;
+		z-index: 0;
+		left:0;
+		overflow: hidden;
+ 	}
+
+ 	#part1section3-title1{
+ 		position:absolute;
+ 		bottom:100px;
+ 	}
+
+ 	#part1section3-title-harness{
+ 		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		text-shadow: 2px 1px 1px #000;
+		z-index: 1000;
+ 	}
+
+ 	#part1section3-text-harness{
+		position: relative;
+		width:100%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 300;
+		text-align: center;
+		color:#fff;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		overflow: hidden;
+		text-shadow: 2px 1px 1px #000;
+		z-index: 1000;
+	}
+
+	#part1section3-text-harness p{
+		width:42%;
+		text-align: left;
+		margin:0 auto;
+	}
+
+	#dam-history{
+		position: relative;
+		z-index: 100;
+		display: block;
+		padding-left: 10px;
+		width: 6500px;
+		z-index: 100;	
+	}
+
+	#part1section3-title-powered{
+ 		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		z-index: 1000;
+ 	}
+
+ 	#part1section3-text-powered{
+		position: relative;
+		width:50%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 400;
+		text-align: left;
+		color:#fff;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		overflow: hidden;
+		z-index: 1000;
+	}
+
+	/* ----- PART 1: SECTION 4 ----- */
+	/* ----- PART 1: SECTION 4 ----- */
+	/* ----- PART 1: SECTION 4 ----- */
+
+	#part1section4{
+		position: relative;
+		width: 100%;
+		background-color: #2e5575;
+		z-index: 0;
+		left:0;
+		overflow: hidden;
+ 	}
+
+	#part1section4-powered{
+		position: relative;
+		min-height: 1050px;
+		width: 100%;
+		left:0;
+		top:0;
+		overflow: hidden;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/p1s3bg.jpg') no-repeat center top;
+		background-size: cover;
+		z-index:100;
+	}
+
+	#part1section4-title1{
+		position: relative;
+		width: 100%;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+
+	#elwhadamcaption{
+		position: absolute;
+		z-index: 1000;
+		left: 75%;
+		margin-top: 950px;
+	}
+
+
+    #part1section4-damslideshowp1{
+    	position: relative;
+    	padding:45px 0 15px;
+    	width: 1260px;
+    	/*left:10%;*/
+    	left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+    }
+
+    #part1section4-damslideshowp2{
+    	position: relative;
+    	width: 1280px;
+    	padding:25px 0 45px;
+    	/*left:10%;*/
+    	left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+    }
+
+	#part1section4-title-torndown{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #fff;
+		overflow: hidden;
+		z-index: 1000;
+	}
+
+	#part1section4-text-torndown{
+		position: relative;
+		width:60%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 300;
+		text-align: left;
+		color:#fff;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		overflow: hidden;
+		z-index: 1000;
+
+	}
+
+	#part1section4-yancy{
+		position: relative;
+		min-height:1200px;
+		width: 100%;
+		background-color: #353b40;
+		z-index: 100px;
+	}
+
+	#part1section4-damslideshow{
+		position: relative;
+		margin:25px auto;
+		width: 1260px;
+	
+	}
+
+	#part1section4-yancyquote{
+		position: relative;
+	}
+
+	#part1section4-yancytitle{
+		position: relative;
+	}
+
+	#part1section4-glines{
+		position: relative;
+		width: 100%;
+	}
+
+	#part1section4-glinesws{
+		position: relative;
+		height: 540px;
+		width: 100%;
+		left:0;
+		top:0;
+		overflow: hidden;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/glineswide.jpg') no-repeat center top;
+		background-size: cover;
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		z-index:100;
+	}
+
+	#glinescaption{
+		margin-left: 64%;
+		margin-top: 33%;
+	}
+
+	#elwha-tl-container{
+		position: relative;
+		height:2000px;
+		width: 100%;
+		z-index: 0;
+		left:0;
+		overflow: hidden;
+		z-index: 0;
+		background-color: #c6ddee;
+	}
+
+	#elwha-tl{
+		position:relative; 
+		width: 100%;
+		z-index:-1000;
+	}
+
+	/* ----- PART 2: SECTION 1 ----- */
+	/* ----- PART 2: SECTION 1 ----- */
+	/* ----- PART 2: SECTION 1 ----- */
+	
+	#part2-section1{
+		position: relative;
+		height: 1750px;
+		width: 100%;
+		background-color: #c6ddee;
+		z-index: 0;
+		left:0;
+		overflow: hidden;
+		z-index: 0;	
+ 	}
+
+ 	#part2section1-title{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 0px;
+		overflow: hidden;
+		z-index: 100;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+
+	#part2section1-salmonlifecycle{
+		position: relative;
+		width: 100%;
+	/*	left:28%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);*/
+	}
+
+	#fishlifeimg{
+		position:relative;
+		width: 80%;
+		z-index:1000;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	}
+		
+	#fishlifesvg{
+		position:absolute;
+		z-index:100;
+		left:48%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);        
+	}
+
+ 	#part2section1-title-lifecycle{
+ 		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		color: #000;
+		overflow: hidden;
+		z-index: 1000;
+ 	}
+
+ 	#part2section1-text-lifecycle{
+		position: relative;
+		width:50%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 300;
+		text-align: left;
+		color:#000;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		margin-top: 15px;
+		overflow: hidden;
+		z-index: 1000;
+	}
+	#part2section1-list{
+		position: relative;
+		width: 100%;
+	}
+
+	#part2section1-text-lifecycle ul{
+		font-size: 17px;
+		list-style-type: none;
+		padding: 10px;
+		margin: 20px;
+	}
+
+	#part2section1-text-lifecycle ul li{
+		background-image: circle;
+		background-repeat: no-repeat;
+		background-position: 0px 5px; 
+		padding-left: 10px; 
+		padding-bottom: 5px;
+	}
+
+	/* ----- PART 2: SECTION 2 ----- */
+	/* ----- PART 2: SECTION 2 ----- */
+	/* ----- PART 2: SECTION 2 ----- */
+
+	#part2section2{
+		position: relative;
+		height: 1067px;
+		width: 100%;
+		left:0;
+		top:0;
+		overflow: hidden;
+		z-index: 0;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/p2s2bg.jpg') no-repeat center top;
+		background-size: cover;
+	}
+	
+	#part2section2-species{
+		position: relative;
+	}
+
+	#part2section2-species-title{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		font-weight: 300;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-top: 25px;
+		color: #000;
+		overflow: hidden;
+		z-index: 1000;
+	}
+
+	#part2section2-species-text{
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+		font-weight: 300;
+		text-align: left;
+		width: 40%;
+		margin-top: 2px;
+		margin-bottom: 75px; 
+		margin-left:auto;
+		margin-right: auto;
+		color: #000;
+		overflow: hidden;
+		z-index: 1000;
+	}
+
+	#fishstack-and-map{
+		max-width:60%;
+		margin:0 auto;
+	}
+
+	#fishstack-and-map:after{
+		content:" ";
+		clear:both;
+	}
+
+	#fishstack{
+		position: relative;
+		width: 49%;
+		margin: 0px;
+		float:left;
+		list-style-type:none;
+		padding:0;
+	}
+
+	#fishstack p{
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		/*font-style: italic;*/
+		font-size: 16px;
+		font-weight: 300;
+		margin: 0px;
+	}
+
+	#fishrange-map{
+		position: relative;
+		width:49%;
+		float:left;
+	}
+
+
+	#fishrange{
+		position: relative;
+		top:0;
+		left:0;
+		z-index: 100;
+	}
+
+	.rangelines{
+		display: none;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+
+	#fishrange-king{
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+	#fishrange-coho{
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+	#fishrange-sockeye{
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+	#fishrange-pink{
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+	#fishrange-chum{
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+
+	#part2section2-species ul{
+		font-size: 18px;
+		list-style-type: none;
+	}
+
+	#part2section2-species li{
+		background-image: none;
+		background-repeat: no-repeat;
+		background-position: 0px 5px; 
+	}
+
+	#part2section2-salmon{
+		position: relative;
+		display: inline;
+		width: 100%;
+		margin: 100px;
+	}
+
+	/* ----- PART 2: SECTION 3 ----- */
+	/* ----- PART 2: SECTION 3 ----- */
+	/* ----- PART 2: SECTION 3 ----- */
+
+	#part2section3{
+		position: relative;
+		height: 850px;
+		width:100%;
+		left:0;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/topo.png') no-repeat;
+		background-size: cover;
+		background-color: #353b40;
+	}
+
+	#part2section3-title-research{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		letter-spacing: 1px;
+		text-align: center;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		color: #fff;
+		margin-bottom: 0px;
+		overflow: hidden;
+	}
+
+	 #part2section3-text-research{
+		position: relative;
+		width:55%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 300;
+		text-align: left;
+		color:#fff;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		margin-top: 15px;
+		overflow: hidden;
+	}
+
+	#part2section3-researchers{
+		position: absolute;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		margin-top: 0 auto;
+		overflow: hidden;
+	}
+
+	#researchersVideoWrapper{
+		position: relative; 
+		padding-bottom: 38.75%; 
+		/*padding-top: 30px; */
+		height: 0; 
+		overflow: hidden; 
+		width:75%;
+		margin:120px auto 35px;
+		height: auto;
+	}
+
+	/* ----- PART 3: SECTION 1 ----- */
+	/* ----- PART 3: SECTION 1 ----- */
+	/* ----- PART 3: SECTION 1 ----- */
+
+	 #part3-section1{
+		position: relative;
+		min-height: 1200px;
+		width:100%;
+		left:0;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/expedition_07.jpg') no-repeat center top;
+		background-size: cover;
+		background-color: #c6ddee;
+		z-index: 0;
+	}
+
+	 #part3section1-title{
+		position: absolute;
+		font-family: 'Oswald', sans-serif;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 0px;
+		overflow: hidden;
+		color: #000;
+		/*text-shadow: 2px 1px 1px #000;*/
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		z-index: 100;        
+	}
+
+	#part3section1-title-expedition{
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		letter-spacing: 1px;
+		text-align: center;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		color: #fff;
+		margin-bottom: 0px;
+		overflow: hidden;
+		text-shadow: 2px 1px 1px #000;
+		z-index: 100;
+	}
+
+	 #part3section1-text-expedition{
+		position: relative;
+		width:50%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 300;
+		text-align: left;
+		color:#fff;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		margin-top: 15px;
+		overflow: hidden;
+		z-index: 100;
+	}
+
+
+	/* ----- PART 3: SECTION 1 ----- */
+	/* ----- PART 3: SECTION 1 ----- */
+	/* ----- PART 3: SECTION 1 ----- */
+
+	#part3-section2{
+		position: relative;
+		height: 7000px;
+		width: 100%;
+		left: 0;
+		background-color: #353b40;
+		overflow: hidden;
+		z-index: 0;
+	}
+
+	#part3nav-holder{
+		position:absolute;
+		min-height: 2300px;
+		width: 100%;
+		left:0px;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/topo-test1.png') no-repeat center bottom;
+		background-size: cover;
+		display: block;
+		z-index: 100;
+	}
+
+	#part3nav{
+		position: absolute;
+        width:100%;
+        min-height:2300px;
+        left:0px;
+        display: block;
+		overflow: hidden;
+		z-index: 1000;
+	}
+	
+	#part3nav-background{
+		position: absolute;
+		opacity:.8;
+		z-index: 100;
+		
+	}
+
+	#routepath{
+		position:absolute;
+		z-index:1000;
+	}
+	
+	#routesvg{
+		position: absolute;
+		fill:none;
+		stroke:#ffff00;
+		stroke-width:4;
+		stroke-miterlimit= 10;
+		stroke-linecap:square;
+		stroke-linejoin:miter;
+		stroke-miterlimit:4;
+		stroke-opacity:1;
+		stroke-dasharray:1400 1400 ;
+		/*stroke-dashoffset: 1400;*/
+		z-index:1000
+	}
+
+	.expedition{
+		position: absolute;
+		left:40%;
+		z-index: 100;
+	}	
+
+	.expeditionheader{
+		position: absolute;
+		font-family: 'Oswald', sans-serif;
+		font-size: 28px;
+		letter-spacing: 1px;
+		text-align: left;
+		margin-bottom: 0px;
+		color: #fff;
+		text-shadow: 2px 1px 1px #000;
+		left:10%;
+		overflow: hidden;
+		z-index: 100;
+	}
+
+	.expeditionheader p{
+		margin-bottom: 0px;
+		text-shadow: 2px 1px 1px #000;
+	}
+
+	.expeditionborder{
+		position: relative;
+    	display: block;
+    	height: 1px;
+    	border: 10px;
+    	border-top: 2px solid #fff;
+    	margin: 0px;
+    	padding: 10px;
+    	width: 99%;
+    	left:0;
+    	z-index: 100;
+	}
+
+	.expeditionimage{
+		position: absolute;
+		width:400px;
+		height: auto;
+		z-index: 100;
+	}
+
+	.expeditioncaption{
+		position: relative;
+		width:100%;
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: left;
+		color:#fff;
+		/*left:60%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);*/
+		margin-top: 15px;
+		overflow: hidden;
+		z-index: 100;
+	}
+
+
+	/* ----- EPILOGUE ----- */
+	/* ----- EPILOGUE ----- */
+	/* ----- EPILOGUE ----- */
+
+	#part4-section1{
+		position: relative;
+		height: 1800px;
+		width: 100%;
+		z-index: -100;
+	}
+
+	#epilogue{	
+		position: relative;
+		height: 845px;
+		width: 100%;
+		background:url('https://s3-us-west-1.amazonaws.com/return-to-elwha/img/p4s1bg.jpg') no-repeat center top;
+		background-size: cover;
+		background-color: #c6ddee;
+		z-index: 0;
+		left:0;
+		overflow: hidden;
+		z-index: -100;	
+	}
+
+	#epilogue-title{
+		position: absolute;
+		font-family: 'Oswald', sans-serif;
+		font-size: 50px;
+		font-weight:700; 
+		letter-spacing: 1px;
+		text-align: center;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		color: #000;
+		margin-bottom: 0px;
+		overflow: hidden;
+		z-index: 100;
+	}
+
+	#epilogue-text{
+		position: absolute;
+		width:40%;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		font-weight: 400;
+		text-align: left;
+		color:#000;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+	
+		overflow: hidden;
+		z-index: 100;
+		/*text-shadow: 2px 1px 1px #000;*/
+	}
+	#epilogue-kicker{
+		position: absolute;
+		width:65%;
+		font-family: 'Lato', sans-serif;
+		font-size: 22px;
+		font-weight: 700;
+		text-align: left;
+		color:#000;
+		left:50%;
+		-webkit-transform:translate(-50%, 0);
+		   -moz-transform:translate(-50%, 0);
+		    -ms-transform:translate(-50%, 0);
+		        transform:translate(-50%, 0);
+		overflow: hidden;
+		z-index: 100;
+	}
+
+	#salmonvid1{
+		position: absolute;
+		width: 100%;
+		z-index: 100;
+	}
+
+	#creditcaption{
+		position: absolute;
+		z-index: 1000;
+		left: 60%;
+		text-shadow: 2px 1px 1px #000;
+	}
+
+	.videogridcontainer{
+		float:left;
+	/*	width: 100%;
+		height:100%;*/
+	}
+	.researchvidcaption{
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		text-align: left;
+		left:2%;
+		color:#fff;
+		width: 60%;
+		position: relative;
+		margin-top: 0px;
+	}
+	
